@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admission</title>
+</head>
+<body style="background-color: #f1e9eb;">  
+    <header>
+        <table style="width: 100%;">
+            <tr>
+                <td style="width: 50px;">
+                    <img src="assests/download.jpeg " alt="College Logo" width="200" height="200">
+                </td>
+                <td>
+                    <h1 align="center">Admission</h1>
+                </td>
+                <td>
+                    <nav>
+                        <ul style="list-style-type: none; margin: 0; padding: 0;">
+                            <li style="display: inline; margin-right: 10px;"><a href="index.html">Home</a></li>
+                            <li style="display: inline; margin-right: 10px;"><a href="academics.html">Academics</a></li>
+                            <li style="display: inline; margin-right: 10px;"><a href="admission.html">Admission</a></li>
+                            <li style="display: inline;"><a href="gallery.html">Gallery</a></li>
+                        </ul>
+                    </nav>
+                </td>
+            </tr>
+        </table>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Admission Form</h2>
+            <form action="#" method="post">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+                
+                <label for="course">Course of Interest:</label>
+                <select id="course" name="course">
+                    <option value="computer-science">Computer Science</option>
+                    <option value="english">English</option>
+                    <!-- Add more options as needed -->
+                </select><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 REC College. All rights reserved.</p>
+    </footer>
+</body>
+</html>
