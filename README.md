@@ -1,4 +1,4 @@
-# html-ABC-college
+# html-REC-college
 
 One Home page that leads to other pages. The Home page should contain the name of the City as heading along with a logo. There should be a tab with the following links:
  Home;
